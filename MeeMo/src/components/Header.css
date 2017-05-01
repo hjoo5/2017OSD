@@ -1,0 +1,46 @@
+.logo {
+    height: 200px;
+    width: 1843px;
+    background-color: #85D0DD;
+    /*width: 100vw;*/
+    line-height: 3.5rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    /*padding: 50px;*/
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.menu {
+    background-color: #0E80D1;
+    width: 1843px;
+    height: 3.5rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    line-height: 3.5rem;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0E80D1;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #0E80D1;
+}
+
+.menu-item:active, .menu-item.active {
+    background-color: #2C74AA;
+    color:gray;
+}
